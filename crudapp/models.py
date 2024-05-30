@@ -9,11 +9,11 @@ class Student(models.Model):
 
 
 
-class Teacher(models.Model):
-    Name=models.CharField(max_length=45)
-    age=models.IntegerField()
-    class Meta:
-        db_table='teacher'   
+# class Teacher(models.Model):
+#     Name=models.CharField(max_length=45)
+#     age=models.IntegerField()
+#     class Meta:
+#         db_table='teacher'   
 
 
 
